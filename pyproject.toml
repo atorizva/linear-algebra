@@ -1,7 +1,7 @@
 [project]
 name = "linear-algebra"
 version = "0.1.0"
-description = "Add your description here"
+description = "Collection of notes and code from Linear Algebra and Learning from Data by Gilbert Strang"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
