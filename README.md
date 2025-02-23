@@ -1,4 +1,30 @@
-# Linear Algebra and Learning from Data
-A book by Gilbert Strang
+# Linear Algebra and Learning from Data - Notes and Code
+Welcome to this repository! 🚀 This is a collection of notes and code based on Linear Algebra and Learning from Data by Gilbert Strang. The goal is to reinforce mathematical concepts through hands-on coding while making these resources useful for others interested in the subject.
 
-## Why?
+## 📌 About the Repository
+This repository includes:
+- Summarized notes covering key concepts from each chapter.
+- Code implementations illustrating linear algebra applications in data science and machine learning.
+- Exercises & solutions (where applicable) to deepen understanding.
+
+## 📖 Topics Covered
+- Vectors, Matrices, and Linear Transformations
+- Singular Value Decomposition (SVD)
+- Principal Component Analysis (PCA)
+- Least Squares and Regression
+- Eigenvalues and Eigenvectors
+- Neural Networks and Deep Learning Foundations
+- Applications in Data Science and Machine Learning
+
+(More topics to be added as the repository grows!)
+
+## ⚡ Getting Started
+1. Clone the repository
+```bash
+git clone https://github.com/atorizva/linear-algebra
+cd linear-algebra
+```
+2. Install the package
+```bash
+pip install .
+```
