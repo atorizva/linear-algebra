@@ -4,6 +4,15 @@ version = "0.1.0"
 description = "Collection of notes and code from Linear Algebra and Learning from Data by Gilbert Strang"
 readme = "README.md"
 requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering"
+]
+license = "MIT"
+
 dependencies = [
     "numpy>=2.2.3",
 ]
@@ -14,3 +23,7 @@ dev = [
     "pytest>=8.3.5",
     "ruff>=0.9.10",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
