@@ -1,20 +1,26 @@
 repos:
-  # Ruff Python formatting and linting
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.9.7
+  - repo: local
     hooks:
-      # Run the linter.
-      - id: ruff
-        name: Ruff Linter
-        args: [ --fix ]
       # Run the formatter.
       - id: ruff-format
-        stages: [pre-commit]
-  # Mypy static type checker
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.15.0
-    hooks:
+        name: Ruff Format
+        entry: ruff format
+        language: system
+        types: [python]
+        pass_filenames: true
+
+      # Run the linter.
+      - id: ruff-linter
+        name: Ruff Linter
+        entry: ruff check --fix
+        language: system
+        types: [python]
+        pass_filenames: true
+
       # Run type checker
       - id: mypy
         name: Mypy type checker
-        stages: [pre-commit]
+        entry: mypy
+        language: system
+        types: [python]
+        pass_filenames: true
