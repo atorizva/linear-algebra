@@ -20,8 +20,12 @@ dependencies = [
 [dependency-groups]
 dev = [
     "mypy>=1.15.0",
+    "nbdime>=4.0.2",
     "pytest>=8.3.5",
     "ruff>=0.9.10",
+]
+jupyter = [
+    "jupyterlab>=4.3.5",
 ]
 
 [build-system]
