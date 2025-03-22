@@ -1,11 +1,11 @@
-# Linear Algebra and Learning from Data - Notes and Code
-Welcome to this repository! 🚀 This is a collection of notes and code based on Linear Algebra and Learning from Data by Gilbert Strang. The goal is to reinforce mathematical concepts through hands-on coding while making these resources useful for others interested in the subject.
+# Introduction to Linear Algebra - Notes and Code
+Welcome to this repository! 🚀 This is a collection of notes and code based on Introduction to Linear Algebra by Gilbert Strang. The goal is to reinforce mathematical concepts through hands-on coding while making these resources useful for others interested in the subject.
 
 ## 📌 About the Repository
-This repository includes:
+This repository includes    :
 - Summarized notes covering key concepts from each chapter.
-- Code implementations illustrating linear algebra applications in data science and machine learning.
-- Exercises & solutions (where applicable) to deepen understanding.
+- Code implementations illustrating linear algebra applications.
+- Exercises & solutions (where applicable) to deepen understanding. 
 
 ## 📖 Topics Covered
 - Vectors, Matrices, and Linear Transformations
@@ -14,9 +14,8 @@ This repository includes:
 - Least Squares and Regression
 - Eigenvalues and Eigenvectors
 - Neural Networks and Deep Learning Foundations
-- Applications in Data Science and Machine Learning
 
-(More topics to be added as the repository grows!)
+(More topics to be added)
 
 ## ⚡ Getting Started
 1. Clone the repository
